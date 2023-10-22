@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String name = edtName.getText().toString();
         String password = edtPassword.getText().toString();
         String msg  = "name : "+name + ", Passsword :" + password;
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT);
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
 
     }
 }
